@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report4" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="911b3f5c-6f30-499a-9a19-8308d59efc2e">
+	<property name="ireport.zoom" value="1.3310000000000004"/>
+	<property name="ireport.x" value="31"/>
+	<property name="ireport.y" value="0"/>
+	<field name="Row" class="java.lang.String"/>
+	<detail>
+		<band height="57" splitType="Stretch">
+			<frame>
+				<reportElement uuid="d16f5016-8dce-489e-8d6e-bdce7614a992" x="0" y="0" width="100" height="50"/>
+				<box>
+					<pen lineWidth="1.25"/>
+					<topPen lineWidth="1.25"/>
+					<leftPen lineWidth="1.25"/>
+					<bottomPen lineWidth="1.25"/>
+					<rightPen lineWidth="1.25"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement uuid="d16f5016-8dce-489e-8d6e-bdce7614a992" x="113" y="0" width="100" height="50"/>
+				<box>
+					<pen lineWidth="1.25"/>
+					<topPen lineWidth="1.25"/>
+					<leftPen lineWidth="1.25"/>
+					<bottomPen lineWidth="1.25"/>
+					<rightPen lineWidth="1.25"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement uuid="d16f5016-8dce-489e-8d6e-bdce7614a992" x="226" y="0" width="100" height="50"/>
+				<box>
+					<pen lineWidth="1.25"/>
+					<topPen lineWidth="1.25"/>
+					<leftPen lineWidth="1.25"/>
+					<bottomPen lineWidth="1.25"/>
+					<rightPen lineWidth="1.25"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement uuid="d16f5016-8dce-489e-8d6e-bdce7614a992" x="342" y="0" width="100" height="50"/>
+				<box>
+					<pen lineWidth="1.25"/>
+					<topPen lineWidth="1.25"/>
+					<leftPen lineWidth="1.25"/>
+					<bottomPen lineWidth="1.25"/>
+					<rightPen lineWidth="1.25"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement uuid="d16f5016-8dce-489e-8d6e-bdce7614a992" x="455" y="0" width="100" height="50"/>
+				<box>
+					<pen lineWidth="1.25"/>
+					<topPen lineWidth="1.25"/>
+					<leftPen lineWidth="1.25"/>
+					<bottomPen lineWidth="1.25"/>
+					<rightPen lineWidth="1.25"/>
+				</box>
+			</frame>
+			<componentElement>
+				<reportElement uuid="096ecd69-5bf4-46e7-a871-cc3c7286a020" stretchType="RelativeToBandHeight" x="119" y="3" width="87" height="42"/>
+				<jr:Code128 xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" textPosition="bottom">
+					<jr:codeExpression><![CDATA[$F{Row}]]></jr:codeExpression>
+				</jr:Code128>
+			</componentElement>
+			<componentElement>
+				<reportElement uuid="096ecd69-5bf4-46e7-a871-cc3c7286a020" positionType="Float" stretchType="RelativeToBandHeight" mode="Opaque" x="7" y="4" width="87" height="42"/>
+				<jr:Code128 xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" textPosition="bottom">
+					<jr:codeExpression><![CDATA[$F{Row}]]></jr:codeExpression>
+				</jr:Code128>
+			</componentElement>
+			<componentElement>
+				<reportElement uuid="096ecd69-5bf4-46e7-a871-cc3c7286a020" stretchType="RelativeToBandHeight" x="461" y="4" width="87" height="42"/>
+				<jr:Code128 xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" textPosition="bottom">
+					<jr:codeExpression><![CDATA[$F{Row}]]></jr:codeExpression>
+				</jr:Code128>
+			</componentElement>
+			<componentElement>
+				<reportElement uuid="096ecd69-5bf4-46e7-a871-cc3c7286a020" stretchType="RelativeToBandHeight" x="348" y="4" width="87" height="42"/>
+				<jr:Code128 xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" textPosition="bottom">
+					<jr:codeExpression><![CDATA[$F{Row}]]></jr:codeExpression>
+				</jr:Code128>
+			</componentElement>
+			<componentElement>
+				<reportElement uuid="096ecd69-5bf4-46e7-a871-cc3c7286a020" stretchType="RelativeToBandHeight" x="233" y="3" width="87" height="42"/>
+				<jr:Code128 xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" textPosition="bottom">
+					<jr:codeExpression><![CDATA[$F{Row}]]></jr:codeExpression>
+				</jr:Code128>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>
