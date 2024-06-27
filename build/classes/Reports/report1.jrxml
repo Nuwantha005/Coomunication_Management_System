@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e1015bd5-0d14-487b-b20a-516540c9c214">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<detail>
+		<band height="459" splitType="Stretch">
+			<bar3DChart>
+				<chart renderType="svg" theme="eye.candy.sixties">
+					<reportElement uuid="876a4549-d789-418a-acef-beb15f2f033e" x="85" y="27" width="394" height="180"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<categorySeries>
+						<seriesExpression><![CDATA["Dummy Series"]]></seriesExpression>
+						<categoryExpression><![CDATA[Date]]></categoryExpression>
+						<valueExpression><![CDATA[Value]]></valueExpression>
+					</categorySeries>
+				</categoryDataset>
+				<bar3DPlot>
+					<plot/>
+					<itemLabel/>
+				</bar3DPlot>
+			</bar3DChart>
+			<pieChart>
+				<chart>
+					<reportElement uuid="57c5d157-94ba-41e0-a9ca-c73d9d5e9c77" x="107" y="246" width="327" height="213"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<pieDataset>
+					<keyExpression><![CDATA[thgerth]]></keyExpression>
+					<valueExpression><![CDATA[teheth]]></valueExpression>
+				</pieDataset>
+				<piePlot isCircular="true">
+					<plot/>
+					<itemLabel/>
+				</piePlot>
+			</pieChart>
+		</band>
+	</detail>
+</jasperReport>
