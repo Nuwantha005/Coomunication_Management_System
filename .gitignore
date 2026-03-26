@@ -1,0 +1,13 @@
+# Build output
+build/
+dist/
+
+# NetBeans private project config (machine-specific)
+nbproject/private/
+
+# JVM crash logs
+hs_err_pid*.log
+
+# OS files
+.DS_Store
+Thumbs.db
